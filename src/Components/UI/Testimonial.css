@@ -13,6 +13,12 @@
   box-shadow: 8px 8px 8px hsl(217, 27%, 20%);
   padding: 30px;
 }
+.quotes {
+  position: relative;
+    top: 20px;
+    z-index: -1;
+    left: 8px;
+}
 
 .testimonialDesc p {
   width: 300px;

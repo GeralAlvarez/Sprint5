@@ -33,7 +33,7 @@
 }
 
 .arrow::after {
-  content: url(../../../../public/images/icon-arrow.svg);
+  content: url(/images/icon-arrow.svg);
 }
 
 @media screen and (max-width: 375px) {
