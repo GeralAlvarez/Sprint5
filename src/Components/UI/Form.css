@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-section {
+  width: 60%;
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.sign-up-desc h1 {
+  margin-bottom: 15px;
+}
+
+.sign-up-desc p {
+  font-size: 14px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+#email {
+  width: 400px;
+  padding: 14px 20px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 100%);
+  margin-right: 25px;
+}
+
+.error{
+   color: hsl(0, 100%, 63%);
+   text-align: start;
+   margin: 5px 60px;
+}
+
+.success {
+  color: green;
+  text-align: start;
+   margin: 5px 60px;
+}
+
+@media screen and (max-width: 375px) {
+  .sign-up-section {
+    width: 90%;
+    height: 55vh;
+    position: relative;
+    top: 50px;
+  }
+
+  .sign-up-desc h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+
+  .sign-up-desc p {
+    width: 280px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  #email {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  .error{
+    text-align: center;
+    margin: auto;
+ }
+
+ .success {
+  text-align: center;
+   margin: auto;
+}
+
+  button {
+    width: 280px;
+  }
+}

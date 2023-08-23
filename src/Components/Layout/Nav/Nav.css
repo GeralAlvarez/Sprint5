@@ -1,0 +1,54 @@
+.navBar {
+  width: 90%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo {
+  cursor: pointer;
+}
+
+.navLinks ul {
+  list-style: none;
+  display: flex;
+}
+
+.navLinks li {
+  width: 100px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 375px) {
+  .navBar {
+    width: 90%;
+  }
+
+  .navLogo {
+    width: 70px;
+    height: auto;
+  }
+
+  .navLinks li {
+    width: 70px;
+    margin-right: 5px;
+  }
+
+  .navLinks li:nth-child(2) {
+    width: 50px;
+  }
+
+  .navLinks li:nth-child(3) {
+    width: 50px;
+  }
+}

@@ -1,0 +1,22 @@
+.section2 {
+  width: 100%;
+  height: auto;
+  background-color: hsl(218, 28%, 13%);
+  position: relative;
+  top: -210px;
+  z-index: -1;
+}
+
+.services {
+  width: 70%;
+  min-height: 50vh;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .services {
+    width: 85%;
+    margin: 250px auto 0;
+  }
+}

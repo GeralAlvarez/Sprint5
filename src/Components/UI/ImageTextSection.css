@@ -1,0 +1,59 @@
+.section3 img {
+  width: 550px;
+  height: auto;
+}
+
+.section3 {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section3Desc h1 {
+  font-size: 2rem;
+  width: 300px;
+  margin-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+}
+.section3Desc p {
+  width: 520px;
+  margin-bottom: 20px;
+}
+
+.section3Desc a {
+  color: hsl(176, 68%, 64%);
+  text-decoration: underline;
+}
+
+.section3Desc a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.arrow::after {
+  content: url(../../../../public/images/icon-arrow.svg);
+}
+
+@media screen and (max-width: 375px) {
+  .section3 {
+    margin-top: 0;
+  }
+
+  .section3 img {
+    width: 300px;
+    height: auto;
+  }
+
+  .section3Desc h1 {
+    font-size: 1rem;
+    margin: 15px 0;
+  }
+
+  .section3Desc p {
+    width: 300px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}

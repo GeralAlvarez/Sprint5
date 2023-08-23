@@ -1,0 +1,20 @@
+button {
+    width: 250px;
+    padding: 14px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+button:active {
+    background-color: #357835;
+  }
+
+  @media screen and (max-width: 375px) {
+    button {
+      width: 200px;
+    }
+  }

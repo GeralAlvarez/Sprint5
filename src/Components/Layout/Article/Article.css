@@ -1,0 +1,26 @@
+.testimonial {
+  min-height: 70vh;
+  margin: 30px;
+}
+
+@media screen and (max-width: 375px) {
+.testimonial{
+  width: 90%;
+  min-height: 100vh;
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes{
+  margin-top: -70px;
+}
+
+.testimonialCard{
+  width: 320px;
+  height: 220px;
+  margin: 15px;
+}
+}
+
+
